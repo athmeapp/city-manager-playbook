@@ -60,8 +60,8 @@ const Index = () => {
               <span className="text-gradient-brand">Build your community.</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              You are the face of athme on the ground. This is the playbook
-              we built with you in mind — the same steps that worked in
+               You are the face of athme on the ground. This is the playbook
+              we built with you in mind: the same steps that worked in
               Copenhagen and Aarhus, now in your hands.
             </p>
           </section>
@@ -76,17 +76,17 @@ const Index = () => {
                 You are why this works.
               </h2>
               <p className="text-base md:text-lg text-foreground/85 leading-relaxed">
-                The city has been chosen. The model is proven. What
+                 The city has been chosen. The model is proven. What
                 happens next depends on you. A great launch needs four
-                things in place: an active expat and student layer,
+                things in place: an active expat, student, and local community layer,
                 enough venues to run a varied program, venue partners
-                you can trust, and <strong>you</strong> — present,
+                you can trust, and <strong>you</strong>, present,
                 consistent, and genuinely energised by people. Get those
                 four right and the city builds itself around you.
               </p>
               <div className="mt-6 grid sm:grid-cols-2 gap-3">
                 {[
-                  { icon: Users, text: "Active expat & student layer" },
+                  { icon: Users, text: "Active expat, student & local community layer" },
                   { icon: MapPin, text: "Enough venues for a varied program" },
                   { icon: Handshake, text: "Venues open to partner pre-launch" },
                   { icon: UserCheck, text: "You, on the ground, every week" },
@@ -105,7 +105,7 @@ const Index = () => {
             </div>
           </section>
 
-          {/* 1 — Your role */}
+          {/* 1 - Your role */}
           <section id="city-selection" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="01"
