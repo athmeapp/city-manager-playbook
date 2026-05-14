@@ -21,12 +21,14 @@ import {
   XCircle,
   Beer,
   Trophy,
+  Rocket,
+  Star,
 } from "lucide-react";
 
 const sections: NavSection[] = [
-  { id: "summary", label: "What makes a good city" },
-  { id: "city-selection", label: "1 · City selection" },
-  { id: "city-manager", label: "2 · City manager" },
+  { id: "summary", label: "Welcome, city manager" },
+  { id: "city-selection", label: "1 · Your role" },
+  { id: "city-manager", label: "2 · Your opportunity" },
   { id: "partnerships", label: "3 · Partnerships" },
   { id: "promotion", label: "4 · Promotion" },
   { id: "launch-weekend", label: "5 · Launch weekend" },
@@ -34,7 +36,7 @@ const sections: NavSection[] = [
   { id: "feedback", label: "7 · Feedback" },
   { id: "stabilize", label: "8 · Stabilizing" },
   { id: "checklist", label: "Minimum requirements" },
-  { id: "risks", label: "Risks of expanding too early" },
+  { id: "risks", label: "Risks of launching too early" },
 ];
 
 const Index = () => {
