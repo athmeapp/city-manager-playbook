@@ -184,24 +184,24 @@ const Index = () => {
             </h3>
             <div className="grid md:grid-cols-3 gap-4">
               {[
-                {
-                  icon: Rocket,
-                  t: "Real ownership",
-                  d: "You run a city. The decisions, the partners, the community. They carry your fingerprint from day one.",
-                  tone: "from-athme-sky to-athme-cyan",
-                },
-                {
-                  icon: TrendingUp,
-                  t: "Performance-based rewards",
-                  d: "Start part-time with real income. As your city grows, this becomes a full-time role. Superior performance unlocks equity and a seat on the core team.",
-                  tone: "from-athme-cyan to-athme-mint",
-                },
-                {
-                  icon: Star,
-                  t: "Path to the core team",
-                  d: "City managers who consistently deliver become the people we build the next chapter of athme with.",
-                  tone: "from-athme-mint to-athme-green",
-                },
+              {
+                icon: Rocket,
+                t: "Real ownership",
+                d: "You run the city. The partners, the events, the community. They carry your fingerprint from day one.",
+                tone: "from-athme-sky to-athme-cyan",
+              },
+              {
+                icon: TrendingUp,
+                t: "Performance-based rewards",
+                d: "Start passion-driven with our tools. Grow into side income, then a full role with equity for top performers.",
+                tone: "from-athme-cyan to-athme-mint",
+              },
+              {
+                icon: Star,
+                t: "Path to the core team",
+                d: "Top performers become the people we build the next chapter of athme with. Your results open every door.",
+                tone: "from-athme-mint to-athme-green",
+              },
               ].map((m) => (
                 <div
                   key={m.t}
