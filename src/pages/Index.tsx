@@ -342,7 +342,7 @@ const Index = () => {
                     "Final mix depends on venue availability and what each partner offers.",
                     
                     "Spot the most active and engaged people. They are your future hosts.",
-                    "City manager moves between venues, takes photos, collects feedback.",
+                    "You move between venues, take photos, collect feedback.",
                   ],
                 },
                 {
@@ -353,7 +353,7 @@ const Index = () => {
                   blocks: [
                     "Another full day of sport, this time leaning into ball sports: football, volleyball, basketball.",
                     "Keep spotting potential hosts. The strongest signals appear when people show up two days in a row.",
-                    "End with a short closing speech from the city manager: thank you, what comes next, how to stay involved.",
+                    "End with a short closing speech from you: thank you, what comes next, how to stay involved.",
                     "Remind everyone that future events will be posted soon and to keep an eye on athme.",
                   ],
                 },
@@ -397,7 +397,7 @@ const Index = () => {
               number="06"
               eyebrow="Recruit on day one"
               title="Host recruitment during launch"
-              lead="We spot hosts during the launch weekend itself, not after."
+              lead="Spot your hosts during the launch weekend itself, not after."
             />
 
             <h3 className="font-display text-xl font-bold mt-6 mb-3">What we look for</h3>
@@ -431,9 +431,9 @@ const Index = () => {
               ))}
             </div>
 
-            <h3 className="font-display text-xl font-bold mt-10 mb-3">How we approach them</h3>
+            <h3 className="font-display text-xl font-bold mt-10 mb-3">How you approach them</h3>
             <ol className="space-y-3 text-foreground/85 list-decimal list-inside marker:text-athme-sky marker:font-bold">
-              <li>City manager spots potential hosts during sessions.</li>
+              <li>Spot potential hosts during sessions.</li>
               <li>Talk to them right after the session about the role and the benefits.</li>
               <li>If they hesitate, tell them to take their time and follow up later.</li>
               <li>Once they accept, add them to the hosts WhatsApp group where you'll share updates.</li>
@@ -455,7 +455,7 @@ const Index = () => {
               number="07"
               eyebrow="Listen with intent"
               title="Feedback & local insights"
-              lead="Month one tells us whether the city behaves like Copenhagen, like Aarhus, or like something new."
+              lead="Month one tells you whether your city behaves like Copenhagen, like Aarhus, or like something new."
             />
 
             <h3 className="font-display text-xl font-bold mt-6 mb-3">Ask every participant</h3>
@@ -503,7 +503,7 @@ const Index = () => {
                 {
                   w: "Week 1",
                   t: "Review & adapt",
-                  p: "Debrief the launch with the city manager. Change what didn't work, double the slots/ events that did.",
+                  p: "Debrief the launch with HQ. Change what didn't work, double the slots and events that did.",
                 },
                 {
                   w: "Week 2",
@@ -556,8 +556,8 @@ const Index = () => {
 
                 <div className="mt-7 grid sm:grid-cols-2 gap-3">
                   {[
-                    "Population 200,000+ with visible international / student community",
-                    "City manager identified and committed",
+                    "You're committed and present in the city for 3+ months",
+                    "You've read the city: visible international / student demand in groups",
                     "At least 1 venue partnership in place",
                     "Promo posted in ≥3 relevant Facebook groups",
                     "ESN or student-org partnership opened",
