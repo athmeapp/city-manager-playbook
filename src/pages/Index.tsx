@@ -620,7 +620,7 @@ const Index = () => {
             <div className="rounded-3xl overflow-hidden shadow-soft border border-border">
               <img
                 src={communityPhoto}
-                alt="athme community across cities: volleyball, basketball, padel and pickleball groups"
+                alt="athme community across cities: beach volleyball, basketball, padel and football groups"
                 className="w-full h-auto block"
                 loading="lazy"
               />
