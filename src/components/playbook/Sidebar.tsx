@@ -81,7 +81,7 @@ export const PlaybookSidebar = ({ sections }: { sections: NavSection[] }) => {
           <img src={logo} alt="athme" className="h-14 w-auto" />
         </div>
         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground mt-2">
-          Expansion Playbook
+          City Manager Playbook
         </p>
         <p className="mt-1 text-xs text-muted-foreground">v1.0 · Internal use</p>
 
