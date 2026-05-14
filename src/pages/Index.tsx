@@ -576,21 +576,21 @@ const Index = () => {
           <section id="risks" className="scroll-mt-8 mb-20">
             <SectionHeader
               number="!!"
-              eyebrow="Read this before saying yes"
-              title="Common risks when expanding too early"
-              lead="Most failed expansions don't fail because the city was wrong. They fail because we moved before the foundations were in place."
+              eyebrow="Read this before you commit"
+              title="Common risks when launching too early"
+              lead="Most launches don't stumble because the city was wrong. They stumble because the foundations weren't in place before opening day."
             />
 
             <div className="grid md:grid-cols-2 gap-4 mt-6">
               {[
-                { t: "No real city manager", d: "Trying to run a city remotely from HQ. Hosts drift, venues stop replying." },
-                { t: "Weak community signal", d: "City looks good on paper but has no demand visible in groups." },
-                { t: "No venue availability", d: "Venues exist, but none have open slots to host weekend events." },
+                { t: "Trying to run it remotely", d: "Being absent from the ground. Hosts drift, venues stop replying. You have to be there." },
+                { t: "Weak community signal", d: "City looks good on paper but you see no demand in the groups." },
+                { t: "No venue availability", d: "Venues exist, but none have open slots for weekend events." },
                 { t: "Promo didn't land", d: "Posts in Facebook groups got little reach. No traction before launch." },
-                { t: "Premature scaling", d: "Adding sports or a second city before the first is stable." },
+                { t: "Premature scaling", d: "Adding sports or expanding before the core program is stable." },
                 { t: "Skipping the Friday social", d: "Going straight into sport without the low-pressure social moment." },
-                { t: "Hiring the wrong city manager", d: "Enthusiastic but unreliable. Cheaper up front, expensive after." },
-                { t: "App not ready for the city", d: "If the app isn't adapted to the new city, it creates impediments from day one." },
+                { t: "Losing momentum after launch", d: "Not protecting the weekly cadence. Trust takes weeks to build, days to lose." },
+                { t: "App not ready for the city", d: "If the app isn't adapted to your city, it creates impediments from day one." },
               ].map((r) => (
                 <div key={r.t} className="rounded-2xl border border-border bg-card p-5 shadow-soft hover:border-athme-sky/50 transition">
                   <div className="flex items-start gap-3">
