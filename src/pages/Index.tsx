@@ -611,10 +611,10 @@ const Index = () => {
           <section className="mt-20 mb-12">
             <div className="text-center mb-8">
               <h2 className="font-display font-black text-4xl md:text-6xl bg-gradient-brand bg-clip-text text-transparent leading-tight">
-                Ready to expand?
+                Ready to launch?
               </h2>
               <p className="mt-3 text-muted-foreground text-base md:text-lg">
-                The next city is waiting. Let's bring the athlete out in them too.
+                Your city is waiting. Bring the athlete out in them — and in yourself.
               </p>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-soft border border-border">
@@ -632,7 +632,7 @@ const Index = () => {
             <div className="flex items-center gap-3">
               <img src={logoMark} alt="athme" className="h-14 w-auto" />
               <div>
-                <p className="font-display font-bold text-sm">athme · Expansion Playbook</p>
+                <p className="font-display font-bold text-sm">athme · City Manager Playbook</p>
                 <p className="text-xs text-muted-foreground">v1.0 · Internal use only</p>
               </div>
             </div>
