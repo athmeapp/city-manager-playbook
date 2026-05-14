@@ -111,7 +111,7 @@ const Index = () => {
               number="01"
               eyebrow="Start here"
               title="Your role as city manager"
-              lead="The city has already been validated — population, international layer, sports infrastructure. Your job is to turn that potential into a living community."
+              lead="The city has already been validated: population, international layer, sports infrastructure. Your job is to turn that potential into a living community."
             />
 
             <h3 className="font-display text-xl font-bold mt-8 mb-3">
@@ -120,7 +120,7 @@ const Index = () => {
             <ul className="space-y-2 text-foreground/85">
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The face of athme locally.</strong> When people think of athme in your city, they think of you.</span></li>
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Venue relationships.</strong> You build the partnerships that keep events running week after week.</span></li>
-              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The launch weekend.</strong> Friday social, Saturday and Sunday sports — you set the tone.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The launch weekend.</strong> Friday social, Saturday and Sunday sports. You set the tone.</span></li>
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Spotting and recruiting hosts.</strong> The community grows through the people you bring in.</span></li>
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Feedback loop with HQ.</strong> What you learn in week one shapes how athme grows everywhere.</span></li>
             </ul>
@@ -148,13 +148,13 @@ const Index = () => {
             </AarhusCallout>
           </section>
 
-          {/* 2 — Your opportunity */}
+          {/* 2 - Your opportunity */}
           <section id="city-manager" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="02"
               eyebrow="Why this role matters"
               title="Your opportunity"
-              lead="City manager isn't a side job. It's where the next leaders of athme are going to come from — and we want that to be you."
+              lead="City manager isn't a side job. It's where the next leaders of athme are going to come from, and we want that to be you."
             />
 
             <div className="mt-6 rounded-3xl bg-gradient-brand p-1 shadow-brand">
@@ -173,7 +173,7 @@ const Index = () => {
                 <p className="mt-4 text-base md:text-lg text-foreground/85 leading-relaxed">
                   We genuinely believe that anyone who contributes and
                   generates superior results will always have a seat at
-                  the table — as part of the core team building athme.
+                  the table, as part of the core team building athme.
                   The city manager role is where that path begins.
                 </p>
               </div>
