@@ -105,32 +105,36 @@ const Index = () => {
             </div>
           </section>
 
-          {/* 1 — City selection */}
+          {/* 1 — Your role */}
           <section id="city-selection" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="01"
-              eyebrow="Foundations"
-              title="City selection & validation"
-              lead="Before we book anything, we read the city. The output is one of three answers: go, maybe, or no."
+              eyebrow="Start here"
+              title="Your role as city manager"
+              lead="The city has already been validated — population, international layer, sports infrastructure. Your job is to turn that potential into a living community."
             />
 
             <h3 className="font-display text-xl font-bold mt-8 mb-3">
-              The non-negotiables
+              What you own
             </h3>
             <ul className="space-y-2 text-foreground/85">
-              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Population 200,000+.</strong> Below that, the active pool drains too fast.</span></li>
-              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Visible international community.</strong> Expats, exchange students, internationals at local companies.</span></li>
-              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Real sports infrastructure.</strong> Multiple venue types we can book, with high availability.</span></li>
-              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Someone on the ground.</strong> No city manager, no launch.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The face of athme locally.</strong> When people think of athme in your city, they think of you.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Venue relationships.</strong> You build the partnerships that keep events running week after week.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The launch weekend.</strong> Friday social, Saturday and Sunday sports — you set the tone.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Spotting and recruiting hosts.</strong> The community grows through the people you bring in.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Feedback loop with HQ.</strong> What you learn in week one shapes how athme grows everywhere.</span></li>
             </ul>
 
             <h3 className="font-display text-xl font-bold mt-10 mb-3">
-              How we research
+              Read the city before you launch
             </h3>
+            <p className="text-foreground/85 leading-relaxed mb-3">
+              Before booking anything, spend a couple of weeks getting a real feel for the ground:
+            </p>
             <ol className="space-y-3 text-foreground/85 list-decimal list-inside marker:text-athme-sky marker:font-bold">
               <li>Search Facebook for <em>“Internationals in [city]”</em>, <em>“Expats in [city]”</em>, ESN groups, and sport-specific groups.</li>
               <li>Read 2 to 3 weeks of posts. Are people asking to meet others or to play together?</li>
-              <li>Map the venues we could use and check which ones are bookable.</li>
+              <li>Map the venues you could use and check which ones are bookable.</li>
               <li>Confirm at least 4 to 5 different sports can run on a normal weekend.</li>
             </ol>
 
@@ -139,90 +143,88 @@ const Index = () => {
                 Aarhus showed us the demand is already sitting in the
                 Facebook groups. People are there, waiting for something
                 to join. They don't need convincing, they need an
-                opportunity. Our job is simply to offer it.
+                opportunity. Your job is simply to offer it.
               </p>
             </AarhusCallout>
+          </section>
+
+          {/* 2 — Your opportunity */}
+          <section id="city-manager" className="scroll-mt-8 mb-24">
+            <SectionHeader
+              number="02"
+              eyebrow="Why this role matters"
+              title="Your opportunity"
+              lead="City manager isn't a side job. It's where the next leaders of athme are going to come from — and we want that to be you."
+            />
+
+            <div className="mt-6 rounded-3xl bg-gradient-brand p-1 shadow-brand">
+              <div className="rounded-[calc(1.5rem-2px)] bg-card p-7 md:p-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-brand text-white">
+                    <Star className="h-4 w-4" />
+                  </span>
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-athme-sky">
+                    A seat at the table
+                  </p>
+                </div>
+                <h3 className="font-display text-2xl md:text-3xl font-bold leading-tight">
+                  Build a city, build your future with athme.
+                </h3>
+                <p className="mt-4 text-base md:text-lg text-foreground/85 leading-relaxed">
+                  We genuinely believe that anyone who contributes and
+                  generates superior results will always have a seat at
+                  the table — as part of the core team building athme.
+                  The city manager role is where that path begins.
+                </p>
+              </div>
+            </div>
 
             <h3 className="font-display text-xl font-bold mt-10 mb-4">
-              Decision framework
+              How you grow with athme
             </h3>
             <div className="grid md:grid-cols-3 gap-4">
               {[
                 {
-                  icon: CheckCircle2,
-                  label: "Go",
-                  tone: "from-athme-mint to-athme-green",
-                  border: "border-athme-green/40",
-                  points: [
-                    "All 4 non-negotiables present",
-                    "Strong demand in groups",
-                    "City manager identified",
-                    "≥1 venue ready to partner",
-                  ],
-                },
-                {
-                  icon: Circle,
-                  label: "Maybe",
+                  icon: Rocket,
+                  t: "Real ownership",
+                  d: "You run a city. The decisions, the partners, the community — they carry your fingerprint from day one.",
                   tone: "from-athme-sky to-athme-cyan",
-                  border: "border-athme-sky/40",
-                  points: [
-                    "3 of 4 present",
-                    "Demand exists but is quiet",
-                    "Manager possible, not secured",
-                    "Venues open but uncommitted",
-                  ],
                 },
                 {
-                  icon: XCircle,
-                  label: "No-go",
-                  tone: "from-slate-500 to-slate-600",
-                  border: "border-border",
-                  points: [
-                    "Population too small",
-                    "No international layer",
-                    "No reliable manager",
-                    "Few or non-bookable venues",
-                  ],
+                  icon: TrendingUp,
+                  t: "Performance-based rewards",
+                  d: "The stronger your city performs, the bigger the upside. Superior results unlock superior rewards.",
+                  tone: "from-athme-cyan to-athme-mint",
                 },
-              ].map((c) => (
+                {
+                  icon: Star,
+                  t: "Path to the core team",
+                  d: "City managers who consistently deliver become the people we build the next chapter of athme with.",
+                  tone: "from-athme-mint to-athme-green",
+                },
+              ].map((m) => (
                 <div
-                  key={c.label}
-                  className={`rounded-2xl border ${c.border} bg-card p-5 shadow-soft`}
+                  key={m.t}
+                  className="group relative overflow-hidden rounded-2xl border border-border bg-card p-5 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
-                  <div className={`inline-flex items-center gap-2 rounded-full bg-gradient-to-r ${c.tone} px-3 py-1 text-white text-xs font-bold uppercase tracking-wider`}>
-                    <c.icon className="h-3.5 w-3.5" />
-                    {c.label}
-                  </div>
-                  <ul className="mt-4 space-y-2 text-sm text-foreground/85">
-                    {c.points.map((p) => (
-                      <li key={p} className="flex gap-2">
-                        <span className="text-athme-sky">›</span>
-                        <span>{p}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${m.tone}`} />
+                  <span className={`inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br ${m.tone} text-white shadow-soft`}>
+                    <m.icon className="h-5 w-5" />
+                  </span>
+                  <h4 className="font-display font-bold text-lg mt-4">{m.t}</h4>
+                  <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{m.d}</p>
                 </div>
               ))}
             </div>
-          </section>
 
-          {/* 2 — City manager */}
-          <section id="city-manager" className="scroll-mt-8 mb-24">
-            <SectionHeader
-              number="02"
-              eyebrow="The most important hire"
-              title="The city manager"
-              lead="No city has launched well without one. The city manager is the face of athme on the ground. Find them before anything else."
-            />
-
-            <h3 className="font-display text-xl font-bold mt-6 mb-3">Profile we look for</h3>
+            <h3 className="font-display text-xl font-bold mt-10 mb-3">What we ask of you</h3>
             <div className="grid sm:grid-cols-2 gap-3">
               {[
-                "Sporty and visibly enjoys it",
+                "Sporty and visibly enjoy it",
                 "Already connected locally",
                 "Reliable and responsive",
                 "Comfortable in front of a group",
-                "Lives in the city for 3+ months",
+                "Living in the city for 3+ months",
                 "Energised by people",
               ].map((t) => (
                 <div key={t} className="rounded-xl border border-border bg-card px-4 py-3 text-sm">
@@ -231,38 +233,13 @@ const Index = () => {
               ))}
             </div>
 
-            <h3 className="font-display text-xl font-bold mt-10 mb-3">Three engagement models</h3>
-            <div className="grid md:grid-cols-3 gap-4">
-              {[
-                { t: "Student job", d: "Our preferred model, especially in countries where students also receive state support. Flexible, high energy, and a great fit for university cities.", featured: true },
-                { t: "Part-time paid", d: "Clear hours and clear deliverables. Works when no strong student-job setup exists.", featured: false },
-                { t: "Volunteer", d: "Possible early on, but is not a viable solution long-term. Ideally starts as a volunteer and gets paid after a trial period.", featured: false },
-              ].map((m) => (
-                <div
-                  key={m.t}
-                  className={`rounded-2xl p-5 ${
-                    m.featured
-                      ? "bg-slate-900 text-white shadow-soft border border-athme-sky/40"
-                      : "border border-border bg-card"
-                  }`}
-                >
-                  <p className={`text-xs font-bold uppercase tracking-wider ${m.featured ? "text-white/80" : "text-athme-sky"}`}>
-                    {m.featured ? "Preferred" : "Sometimes"}
-                  </p>
-                  <h4 className="font-display text-lg font-bold mt-1">{m.t}</h4>
-                  <p className={`mt-2 text-sm leading-relaxed ${m.featured ? "text-white/90" : "text-muted-foreground"}`}>
-                    {m.d}
-                  </p>
-                </div>
-              ))}
-            </div>
-
             <AarhusCallout>
               <p>
-                Aarhus worked because we secured the city manager{" "}
-                <strong>before</strong> picking a launch date. That one
-                decision helped us reach more people, gather local insights
-                first-hand, and move faster and more efficiently from day one.
+                Aarhus worked because the city manager was secured{" "}
+                <strong>before</strong> a launch date was picked. That
+                one decision helped reach more people, gather local
+                insights first-hand, and move faster from day one. You
+                are that person now.
               </p>
             </AarhusCallout>
           </section>
