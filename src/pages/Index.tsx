@@ -277,7 +277,7 @@ const Index = () => {
               number="04"
               eyebrow="Earn attention, don't buy it"
               title="Promotion before launch"
-              lead="The first wave of users comes from the same Facebook groups, ESN networks and sport communities we used to validate the city."
+              lead="Your first wave of users comes from the same Facebook groups, ESN networks and sport communities you used to read the city."
             />
 
             <h3 className="font-display text-xl font-bold mt-6 mb-3">Where to post</h3>
@@ -291,9 +291,9 @@ const Index = () => {
               The post that worked in Aarhus
             </h3>
             <p className="text-foreground/85 leading-relaxed mb-5">
-              Personal, honest, low-pressure. Posted by the city manager
-              directly into the international Facebook group. No logos,
-              no pitch. Just an invitation.
+              Personal, honest, low-pressure. Posted by you directly
+              into the international Facebook group. No logos, no
+              pitch. Just an invitation.
             </p>
             <div className="rounded-2xl border border-border bg-card p-3 shadow-soft max-w-md mx-auto">
               <img
@@ -326,7 +326,7 @@ const Index = () => {
                   tone: "from-athme-sky to-athme-cyan",
                   blocks: [
                     "Casual venue. A bar, café, or any spot where we can gather a good crowd and grab some drinks together.",
-                    "City manager opens with a short story: what athme is, why this city.",
+                    "You open with a short story: what athme is, why this city.",
                     "Drinks, mingling, music. No formal program after the intro.",
                     "Small giveaway or free first session.",
                     "Goal: awareness, trust, the seed of community.",
