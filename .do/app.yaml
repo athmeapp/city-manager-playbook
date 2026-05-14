@@ -1,0 +1,18 @@
+name: city-manager-playbook
+region: fra
+static_sites:
+  - name: web
+    github:
+      repo: athmeapp/city-manager-playbook
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    build_command: npm ci && npm run build
+    output_dir: dist
+    # SPA fallback so react-router client-side routes work on refresh / deep links
+    catchall_document: index.html
+    environment_slug: node-js
+    # Uncomment and adjust once DNS is ready:
+    # domains:
+    #   - domain: citymanager-playbook.athmeapp.eu
+    #     type: PRIMARY
