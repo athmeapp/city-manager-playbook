@@ -154,7 +154,7 @@ const Index = () => {
               number="02"
               eyebrow="Why this role matters"
               title="Your opportunity"
-              lead="This is not a fixed gig. It is a real path: start small, prove the model, and grow with the city. We want you to become an entrepreneur inside athme, not just a manager."
+              lead="City manager isn't a side job. It's where the next leaders of athme are going to come from, and we want that to be you."
             />
 
             <div className="mt-6 rounded-3xl bg-gradient-brand p-1 shadow-brand">
@@ -164,14 +164,17 @@ const Index = () => {
                     <Star className="h-4 w-4" />
                   </span>
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-athme-sky">
-                    A real path to ownership
+                    A seat at the table
                   </p>
                 </div>
                 <h3 className="font-display text-2xl md:text-3xl font-bold leading-tight">
-                  From side income to equity. Build a city, own your future.
+                  Build a city, build your future with athme.
                 </h3>
                 <p className="mt-4 text-base md:text-lg text-foreground/85 leading-relaxed">
-                  Most city managers start part-time, like a side project with real income. As the city grows, the role can become full-time. For those who consistently deliver superior results, the next step is real ownership: an equity-based plan that makes you a shareholder in athme. We believe everyone who contributes meaningfully deserves a seat at the table.
+                  We genuinely believe that anyone who contributes and
+                  generates superior results will always have a seat at
+                  the table, as part of the core team building athme.
+                  The city manager role is where that path begins.
                 </p>
               </div>
             </div>
@@ -183,20 +186,20 @@ const Index = () => {
               {[
                 {
                   icon: Rocket,
-                  t: "Start as an entrepreneur",
-                  d: "You begin part-time, running your city like your own small business. You own the decisions, the partners, and the community from day one.",
+                  t: "Real ownership",
+                  d: "You run a city. The decisions, the partners, the community. They carry your fingerprint from day one.",
                   tone: "from-athme-sky to-athme-cyan",
                 },
                 {
                   icon: TrendingUp,
-                  t: "Scale to full-time income",
-                  d: "As the community grows, so does the role. Superior city performance unlocks bigger rewards, and the path to a full-time salary becomes real.",
+                  t: "Performance-based rewards",
+                  d: "Start part-time with real income. As your city grows, this becomes a full-time role. Superior performance unlocks equity and a seat on the core team.",
                   tone: "from-athme-cyan to-athme-mint",
                 },
                 {
                   icon: Star,
-                  t: "Earn real ownership",
-                  d: "The best city managers do not just get paid. They get equity. A tangible stake in the company, because we want you building athme with us, not just for us.",
+                  t: "Path to the core team",
+                  d: "City managers who consistently deliver become the people we build the next chapter of athme with.",
                   tone: "from-athme-mint to-athme-green",
                 },
               ].map((m) => (
