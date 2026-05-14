@@ -302,7 +302,7 @@ const Index = () => {
                 className="w-full rounded-xl"
               />
               <p className="text-xs text-muted-foreground text-center mt-3 italic">
-                Real post in “Aarhus Internationals” — drove our first
+                Real post in “Aarhus Internationals”, which drove our first
                 wave of attendees.
               </p>
             </div>
