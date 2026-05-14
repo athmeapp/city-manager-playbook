@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* athme design system. All colors HSL.
+   Brand palette (from athme brand guidelines):
+   #00B2F3 sky  · #00DEEB cyan · #00E9BA mint · #00DC7D green · #00E900 lime
+*/
+
+@layer base {
+  :root {
+    --background: 210 40% 99%;
+    --foreground: 215 45% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 45% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 45% 12%;
+
+    /* athme sky blue as primary */
+    --primary: 196 100% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    /* athme mint as secondary */
+    --secondary: 165 100% 46%;
+    --secondary-foreground: 215 45% 12%;
+
+    --muted: 210 30% 96%;
+    --muted-foreground: 215 20% 40%;
+
+    --accent: 156 100% 43%;
+    --accent-foreground: 215 45% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 25% 90%;
+    --input: 210 25% 90%;
+    --ring: 196 100% 48%;
+
+    --radius: 0.75rem;
+
+    /* athme brand stops */
+    --athme-sky: 196 100% 48%;     /* #00B2F3 */
+    --athme-cyan: 184 100% 46%;    /* #00DEEB */
+    --athme-mint: 169 100% 46%;    /* #00E9BA */
+    --athme-green: 153 100% 43%;   /* #00DC7D */
+    --athme-lime: 120 100% 46%;    /* #00E900 */
+
+    --gradient-brand: linear-gradient(
+      135deg,
+      hsl(var(--athme-sky)) 0%,
+      hsl(var(--athme-cyan)) 30%,
+      hsl(var(--athme-mint)) 60%,
+      hsl(var(--athme-green)) 100%
+    );
+    --gradient-soft: linear-gradient(
+      135deg,
+      hsl(var(--athme-sky) / 0.08) 0%,
+      hsl(var(--athme-mint) / 0.08) 100%
+    );
+
+    --shadow-brand: 0 20px 60px -20px hsl(var(--athme-sky) / 0.35);
+    --shadow-soft: 0 8px 30px -10px hsl(215 45% 12% / 0.08);
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 215 30% 25%;
+    --sidebar-primary: 196 100% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 196 100% 96%;
+    --sidebar-accent-foreground: 196 100% 30%;
+    --sidebar-border: 210 25% 92%;
+    --sidebar-ring: 196 100% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-brand {
+    background-image: var(--gradient-brand);
+  }
+  .bg-gradient-soft {
+    background-image: var(--gradient-soft);
+  }
+  .text-gradient-brand {
+    background-image: var(--gradient-brand);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .shadow-brand {
+    box-shadow: var(--shadow-brand);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  .border-brand {
+    border-image: var(--gradient-brand) 1;
+  }
+}
