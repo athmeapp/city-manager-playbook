@@ -60,8 +60,8 @@ const Index = () => {
               <span className="text-gradient-brand">Build your community.</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              You are the face of athme on the ground. This is the playbook
-              we built with you in mind — the same steps that worked in
+               You are the face of athme on the ground. This is the playbook
+              we built with you in mind: the same steps that worked in
               Copenhagen and Aarhus, now in your hands.
             </p>
           </section>
@@ -76,17 +76,17 @@ const Index = () => {
                 You are why this works.
               </h2>
               <p className="text-base md:text-lg text-foreground/85 leading-relaxed">
-                The city has been chosen. The model is proven. What
+                 The city has been chosen. The model is proven. What
                 happens next depends on you. A great launch needs four
-                things in place: an active expat and student layer,
+                things in place: an active expat, student, and local community layer,
                 enough venues to run a varied program, venue partners
-                you can trust, and <strong>you</strong> — present,
+                you can trust, and <strong>you</strong>, present,
                 consistent, and genuinely energised by people. Get those
                 four right and the city builds itself around you.
               </p>
               <div className="mt-6 grid sm:grid-cols-2 gap-3">
                 {[
-                  { icon: Users, text: "Active expat & student layer" },
+                  { icon: Users, text: "Active expat, student & local community layer" },
                   { icon: MapPin, text: "Enough venues for a varied program" },
                   { icon: Handshake, text: "Venues open to partner pre-launch" },
                   { icon: UserCheck, text: "You, on the ground, every week" },
@@ -105,13 +105,13 @@ const Index = () => {
             </div>
           </section>
 
-          {/* 1 — Your role */}
+          {/* 1 - Your role */}
           <section id="city-selection" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="01"
               eyebrow="Start here"
               title="Your role as city manager"
-              lead="The city has already been validated — population, international layer, sports infrastructure. Your job is to turn that potential into a living community."
+              lead="The city has already been validated: population, international layer, sports infrastructure. Your job is to turn that potential into a living community."
             />
 
             <h3 className="font-display text-xl font-bold mt-8 mb-3">
@@ -120,7 +120,7 @@ const Index = () => {
             <ul className="space-y-2 text-foreground/85">
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The face of athme locally.</strong> When people think of athme in your city, they think of you.</span></li>
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Venue relationships.</strong> You build the partnerships that keep events running week after week.</span></li>
-              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The launch weekend.</strong> Friday social, Saturday and Sunday sports — you set the tone.</span></li>
+              <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>The launch weekend.</strong> Friday social, Saturday and Sunday sports. You set the tone.</span></li>
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Spotting and recruiting hosts.</strong> The community grows through the people you bring in.</span></li>
               <li className="flex gap-3"><Circle className="h-2 w-2 mt-2 fill-athme-sky text-athme-sky shrink-0" /><span><strong>Feedback loop with HQ.</strong> What you learn in week one shapes how athme grows everywhere.</span></li>
             </ul>
@@ -132,7 +132,7 @@ const Index = () => {
               Before booking anything, spend a couple of weeks getting a real feel for the ground:
             </p>
             <ol className="space-y-3 text-foreground/85 list-decimal list-inside marker:text-athme-sky marker:font-bold">
-              <li>Search Facebook for <em>“Internationals in [city]”</em>, <em>“Expats in [city]”</em>, ESN groups, and sport-specific groups.</li>
+              <li>Search Facebook and WhatsApp for <em>“Internationals in [city]”</em>, <em>“Expats in [city]”</em>, ESN groups, local sport clubs, and sport-specific groups.</li>
               <li>Read 2 to 3 weeks of posts. Are people asking to meet others or to play together?</li>
               <li>Map the venues you could use and check which ones are bookable.</li>
               <li>Confirm at least 4 to 5 different sports can run on a normal weekend.</li>
@@ -148,13 +148,13 @@ const Index = () => {
             </AarhusCallout>
           </section>
 
-          {/* 2 — Your opportunity */}
+          {/* 2 - Your opportunity */}
           <section id="city-manager" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="02"
               eyebrow="Why this role matters"
               title="Your opportunity"
-              lead="City manager isn't a side job. It's where the next leaders of athme are going to come from — and we want that to be you."
+              lead="City manager isn't a side job. It's where the next leaders of athme are going to come from, and we want that to be you."
             />
 
             <div className="mt-6 rounded-3xl bg-gradient-brand p-1 shadow-brand">
@@ -173,7 +173,7 @@ const Index = () => {
                 <p className="mt-4 text-base md:text-lg text-foreground/85 leading-relaxed">
                   We genuinely believe that anyone who contributes and
                   generates superior results will always have a seat at
-                  the table — as part of the core team building athme.
+                  the table, as part of the core team building athme.
                   The city manager role is where that path begins.
                 </p>
               </div>
@@ -187,7 +187,7 @@ const Index = () => {
                 {
                   icon: Rocket,
                   t: "Real ownership",
-                  d: "You run a city. The decisions, the partners, the community — they carry your fingerprint from day one.",
+                  d: "You run a city. The decisions, the partners, the community. They carry your fingerprint from day one.",
                   tone: "from-athme-sky to-athme-cyan",
                 },
                 {
@@ -244,7 +244,7 @@ const Index = () => {
             </AarhusCallout>
           </section>
 
-          {/* 3 — Partnerships */}
+          {/* 3 - Partnerships */}
           <section id="partnerships" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="03"
@@ -271,20 +271,20 @@ const Index = () => {
             </AarhusCallout>
           </section>
 
-          {/* 4 — Promotion */}
+          {/* 4 - Promotion */}
           <section id="promotion" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="04"
               eyebrow="Earn attention, don't buy it"
               title="Promotion before launch"
-              lead="Your first wave of users comes from the same Facebook groups, ESN networks and sport communities you used to read the city."
+              lead="Your first wave of users comes from the same Facebook and WhatsApp groups, ESN networks, sport communities, and local networks you used to read the city."
             />
 
             <h3 className="font-display text-xl font-bold mt-6 mb-3">Where to post</h3>
             <ul className="space-y-2 text-foreground/85">
-              <li className="flex gap-3"><Megaphone className="h-4 w-4 mt-1 text-athme-sky shrink-0" /><span>Internationals and expats in [city]</span></li>
-              <li className="flex gap-3"><Megaphone className="h-4 w-4 mt-1 text-athme-sky shrink-0" /><span>ESN [city] and exchange-student groups</span></li>
-              <li className="flex gap-3"><Megaphone className="h-4 w-4 mt-1 text-athme-sky shrink-0" /><span>Sport-specific groups (padel, bouldering, football, running)</span></li>
+              <li className="flex gap-3"><Megaphone className="h-4 w-4 mt-1 text-athme-sky shrink-0" /><span>Internationals, expats, and established local communities in [city]</span></li>
+              <li className="flex gap-3"><Megaphone className="h-4 w-4 mt-1 text-athme-sky shrink-0" /><span>ESN [city], exchange-student groups, and local university or club groups</span></li>
+              <li className="flex gap-3"><Megaphone className="h-4 w-4 mt-1 text-athme-sky shrink-0" /><span>Sport-specific groups (padel, bouldering, football, running) and local WhatsApp communities</span></li>
             </ul>
 
             <h3 className="font-display text-xl font-bold mt-10 mb-3">
@@ -302,13 +302,13 @@ const Index = () => {
                 className="w-full rounded-xl"
               />
               <p className="text-xs text-muted-foreground text-center mt-3 italic">
-                Real post in “Aarhus Internationals” — drove our first
+                Real post in “Aarhus Internationals”, which drove our first
                 wave of attendees.
               </p>
             </div>
           </section>
 
-          {/* 5 — Launch weekend */}
+          {/* 5 - Launch weekend */}
           <section id="launch-weekend" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="05"
@@ -391,7 +391,7 @@ const Index = () => {
             </AarhusCallout>
           </section>
 
-          {/* 6 — Hosts */}
+          {/* 6 - Hosts */}
           <section id="hosts" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="06"
@@ -449,7 +449,7 @@ const Index = () => {
             </AarhusCallout>
           </section>
 
-          {/* 7 — Feedback */}
+          {/* 7 - Feedback */}
           <section id="feedback" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="07"
@@ -489,7 +489,7 @@ const Index = () => {
             </div>
           </section>
 
-          {/* 8 — Stabilize */}
+          {/* 8 - Stabilize */}
           <section id="stabilize" className="scroll-mt-8 mb-24">
             <SectionHeader
               number="08"
@@ -557,7 +557,7 @@ const Index = () => {
                 <div className="mt-7 grid sm:grid-cols-2 gap-3">
                   {[
                     "You're committed and present in the city for 3+ months",
-                    "You've read the city: visible international / student demand in groups",
+                    "You've read the city: visible international, student, or local demand in groups",
                     "At least 1 venue partnership in place",
                     "Promo posted in ≥3 relevant Facebook groups",
                     "ESN or student-org partnership opened",
@@ -614,13 +614,13 @@ const Index = () => {
                 Ready to launch?
               </h2>
               <p className="mt-3 text-muted-foreground text-base md:text-lg">
-                Your city is waiting. Bring the athlete out in them — and in yourself.
+                Your city is waiting. Bring the athlete out in them, and in yourself.
               </p>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-soft border border-border">
               <img
                 src={communityPhoto}
-                alt="athme community across cities — volleyball, basketball, padel and pickleball groups"
+                alt="athme community across cities: volleyball, basketball, padel and pickleball groups"
                 className="w-full h-auto block"
                 loading="lazy"
               />
