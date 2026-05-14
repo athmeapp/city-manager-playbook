@@ -52,16 +52,17 @@ const Index = () => {
               <img src={logo} alt="athme" className="h-9 w-auto" />
             </div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-athme-sky mb-4">
-              Internal Playbook · v1.0
+              City Manager Playbook · v1.0
             </p>
             <h1 className="font-display text-5xl md:text-7xl font-extrabold leading-[0.95] tracking-tight">
-              The athme
+              Launch your city.
               <br />
-              <span className="text-gradient-brand">Expansion Playbook</span>
+              <span className="text-gradient-brand">Build your community.</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              How we launch athme in a new city. Built from Copenhagen and
-              proven in Aarhus.
+              You are the face of athme on the ground. This is the playbook
+              we built with you in mind — the same steps that worked in
+              Copenhagen and Aarhus, now in your hands.
             </p>
           </section>
 
@@ -69,24 +70,26 @@ const Index = () => {
           <section id="summary" className="scroll-mt-8 mb-24">
             <div className="rounded-3xl border border-athme-sky/30 bg-gradient-soft p-7 md:p-10 shadow-soft">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-athme-sky mb-3">
-                Start here
+                Welcome
               </p>
               <h2 className="font-display text-3xl md:text-4xl font-bold mb-5">
-                What makes a city a good fit for athme?
+                You are why this works.
               </h2>
               <p className="text-base md:text-lg text-foreground/85 leading-relaxed">
-                A good athme city has at least <strong>200,000 people</strong>,
-                a visible international and student community, enough sports
-                venues to run a varied weekly program, and a reliable local
-                person to run it. When those four are in place, the model
-                works. When one is missing, it stalls.
+                The city has been chosen. The model is proven. What
+                happens next depends on you. A great launch needs four
+                things in place: an active expat and student layer,
+                enough venues to run a varied program, venue partners
+                you can trust, and <strong>you</strong> — present,
+                consistent, and genuinely energised by people. Get those
+                four right and the city builds itself around you.
               </p>
               <div className="mt-6 grid sm:grid-cols-2 gap-3">
                 {[
                   { icon: Users, text: "Active expat & student layer" },
                   { icon: MapPin, text: "Enough venues for a varied program" },
-                  { icon: UserCheck, text: "A reliable local city manager" },
                   { icon: Handshake, text: "Venues open to partner pre-launch" },
+                  { icon: UserCheck, text: "You, on the ground, every week" },
                 ].map(({ icon: Icon, text }) => (
                   <div
                     key={text}
