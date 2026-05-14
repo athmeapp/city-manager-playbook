@@ -186,20 +186,20 @@ const Index = () => {
               {[
               {
                 icon: Rocket,
-                t: "Real ownership",
-                d: "You run the city. The partners, the events, the community. They carry your fingerprint from day one.",
+                t: "You own your city",
+                d: "It is your city to build. You decide the partners, the events, the vibe. We back you with the tools and the brand.",
                 tone: "from-athme-sky to-athme-cyan",
               },
               {
                 icon: TrendingUp,
-                t: "Performance-based rewards",
-                d: "Start passion-driven with our tools. Grow into side income, then a full role with equity for top performers.",
+                t: "Rewarded as you grow",
+                d: "Start passion-driven, grow into side income, then a full role. Every level of effort has a matching reward.",
                 tone: "from-athme-cyan to-athme-mint",
               },
               {
                 icon: Star,
-                t: "Path to the core team",
-                d: "Top performers become the people we build the next chapter of athme with. Your results open every door.",
+                t: "A real seat at the table",
+                d: "Top performers earn equity and join the core team. We are early, and we share the upside with the people building it.",
                 tone: "from-athme-mint to-athme-green",
               },
               ].map((m) => (
